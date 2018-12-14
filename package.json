@@ -34,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:ElemeFE/element.git"
+    "url": "git+ssh://git@github.com/ElemeFE/element.git"
   },
   "homepage": "http://element.eleme.io",
   "keywords": [
@@ -135,5 +135,11 @@
     "webpack": "^3.7.1",
     "webpack-dev-server": "^2.9.1",
     "webpack-node-externals": "^1.6.0"
-  }
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "author": ""
 }
